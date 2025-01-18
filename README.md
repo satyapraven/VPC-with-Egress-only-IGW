@@ -66,7 +66,7 @@ Configures the Egress-Only Internet Gateway and route tables for private subnets
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/satyapraven/VPC-with-Egress-only-IGW.git
 ```
 
 2. Initialize Terraform:
