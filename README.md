@@ -1,4 +1,4 @@
-# Terraform Project: Fully Configured AWS VPC Infrastructure with Egress-Only Internet Gateway (IPv4 & IPv6 Support)
+# Fully Configured AWS VPC Infrastructure with Egress-Only Internet Gateway (IPv4 & IPv6 Support)
 
 This Terraform project provisions a robust AWS Virtual Private Cloud (VPC) infrastructure, featuring both IPv4 and IPv6 support. Instead of using the typical NAT Gateway, the solution incorporates an Egress-Only Internet Gateway for secure outbound traffic to the internet from private subnets. The infrastructure is optimized for high availability, security, and scalability, adhering to best practices for VPC design.
 
