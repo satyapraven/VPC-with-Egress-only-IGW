@@ -1,6 +1,8 @@
-# AWS VPC Infrastructure with Terraform
+# Terraform Project: Fully Configured AWS VPC Infrastructure with Egress-Only Internet Gateway (IPv4 & IPv6 Support)
 
-This Terraform project creates a fully configured AWS VPC infrastructure optimized for EKS (Elastic Kubernetes Service) with both IPv4 and IPv6 support.
+This Terraform project provisions a robust AWS Virtual Private Cloud (VPC) infrastructure, featuring both IPv4 and IPv6 support. Instead of using the typical NAT Gateway, the solution incorporates an Egress-Only Internet Gateway for secure outbound traffic to the internet from private subnets. The infrastructure is optimized for high availability, security, and scalability, adhering to best practices for VPC design.
+
+This solution is designed to provide a secure, scalable, and flexible VPC setup, supporting modern cloud-native applications with a focus on minimal external exposure and optimized internal traffic management
 
 ## Architecture Overview
 
