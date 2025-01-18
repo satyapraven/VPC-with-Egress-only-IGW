@@ -1,8 +1,10 @@
 # AWS VPC Infrastructure with Egress-Only Internet Gateway (IPv4 & IPv6 Support)
 
-This Terraform project provisions a robust AWS Virtual Private Cloud (VPC) infrastructure, featuring both IPv4 and IPv6 support. Instead of using the typical NAT Gateway, the solution incorporates an Egress-Only Internet Gateway for secure outbound traffic to the internet from private subnets. The infrastructure is optimized for high availability, security, and scalability, adhering to best practices for VPC design.
+This Terraform project provisions a highly resilient and secure AWS Virtual Private Cloud (VPC) infrastructure with dual-stack support for IPv4 and IPv6. To optimize cost-efficiency without compromising functionality, the solution replaces the traditional NAT Gateway (associated with hourly pricing and data transfer charges) with an Egress-Only Internet Gateway, which is free of hourly costs but incurs data transfer fees. This approach enables secure and cost-effective outbound internet connectivity for resources within private subnets.
 
-This solution is designed to provide a secure, scalable, and flexible VPC setup, supporting modern cloud-native applications with a focus on minimal external exposure and optimized internal traffic management
+The infrastructure design emphasizes high availability, robust security, and scalability, adhering to AWS best practices for VPC architecture. Key features include private and public subnets distributed across multiple Availability Zones, improved traffic flow management, and minimized external exposure to enhance security.
+
+This solution is tailored to meet the demands of modern cloud-native applications, offering a secure, scalable, and flexible VPC setup. It facilitates optimized internal traffic management while maintaining a strong focus on operational efficiency and reduced costs.
 
 ## Architecture Overview
 
