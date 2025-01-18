@@ -14,11 +14,11 @@ The infrastructure includes:
 ### Network Layout
 - VPC CIDR: 10.0.0.0/16
 - Public Subnets:
-  - **<region>**a: 10.0.1.0/24 (with IPv6)
-  - **<region>**c: 10.0.2.0/24 (with IPv6)
+  - **region**a: 10.0.1.0/24 (with IPv6)
+  - **region**c: 10.0.2.0/24 (with IPv6)
 - Private Subnets:
-  - **<region>**a: 10.0.10.0/24 (with IPv6)
-  - **<region>**c: 10.0.11.0/24 (with IPv6)
+  - **region**a: 10.0.10.0/24 (with IPv6)
+  - **region**c: 10.0.11.0/24 (with IPv6)
 
 ## Prerequisites
 
